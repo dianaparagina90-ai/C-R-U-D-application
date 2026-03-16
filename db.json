@@ -1,0 +1,122 @@
+{
+    "games": [
+        {
+        "id" : 1,
+        "title" : "Skattjakt",
+        "ageGroup": "6-9",
+        "categoryId": 1,
+        "difficulty": "medium",
+        "indoor": false,
+        "description": "Barn följer ledtrådar för att hitta en gömd skatt."
+    },
+    {
+        "id" : 2,
+        "title" : "Dansstopp",
+        "ageGroup": "4-7",
+        "categoryId": 2,
+        "difficulty": "easy",
+        "indoor": true,
+        "description": "Barn dansar till musik och måste frysa när musiken stoppar."
+    },
+    {
+        "id" : 3,
+        "title" : "Färgjakten",
+        "ageGroup": "3-5",
+        "categoryId": 3,
+        "difficulty": "medium",
+        "indoor": false,
+        "description": "Barn letar saker i olika färger i trädgården eller lekplatsen."
+    },
+    {
+        "id" : 4,
+        "title" : "Rymdäventyret",
+        "ageGroup": "8-10",
+        "categoryId": 1,
+        "difficulty": "medium",
+        "indoor": false,
+        "description": "Barn spelar astronauter och utforskar “nya planeter”."
+    },
+    {
+        "id" : 5,
+        "title" : "Memory Mix",
+        "ageGroup": "5-8",
+        "categoryId": 3,
+        "difficulty": "medium",
+        "indoor": true,
+        "description": "Memoryspel med djur eller färger, tränar minne och koncentration."
+    },
+    {
+        "id" : 6,
+        "title" : "Pusselmästaren",
+        "ageGroup": "6-9",
+        "categoryId": 3,
+        "difficulty": "easy",
+        "indoor": true,
+        "description": "Barn löser pussel med olika svårighetsgrad."
+    },
+    {
+        "id" : 7,
+        "title" : "Hopa hage",
+        "ageGroup": "3-7",
+        "categoryId": 2,
+        "difficulty": "easy",
+        "indoor": false,
+        "description": "Klassiskt hopphage-spel med poängsystem."
+    },
+    {
+        "id" : 8,
+        "title" : "Byggtornet",
+        "ageGroup": "5-8",
+        "categoryId": 3,
+        "difficulty": "easy",
+        "indoor": true,
+        "description": "Bygg torn med klossar, utmana barnen att göra högst torn utan att det rasar."
+    },
+    {
+        "id" : 9,
+        "title" : "Naturutforskaren",
+        "ageGroup": "6-9",
+        "categoryId": 1,
+        "difficulty": "medium",
+        "indoor": false,
+        "description": "Barn letar efter olika växter, insekter och fåglar på promenad."
+    },
+    {
+        "id" : 10,
+        "title" : "Fantasifort",
+        "ageGroup": "5-8",
+        "categoryId": 3,
+        "difficulty": "easy",
+        "indoor": true,
+        "description": "Barn hittar på korta sagor eller rollspel med figurer."
+    }
+],
+
+    "category": [
+        {
+            "id" : 1,
+            "name": "Äventyr"
+        },
+        {
+            "id" : 2,
+            "name": "Musik & rörelse"
+        },
+        {
+            "id" : 3,
+            "name": "Kreativt"
+        }
+    ],
+
+    "indoor-outdoor": [
+        {
+            "id": 1,
+            "indoor": true
+        },
+        {
+            "id": 1,
+            "indoor": false
+        }
+    ]
+
+    
+}

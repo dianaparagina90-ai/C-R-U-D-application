@@ -1,0 +1,24 @@
+{
+  "name": "c-r-u-d-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dianaparagina90-ai/C-R-U-D-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/dianaparagina90-ai/C-R-U-D-application/issues"
+  },
+  "homepage": "https://github.com/dianaparagina90-ai/C-R-U-D-application#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.13"
+  }
+}
