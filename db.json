@@ -18,7 +18,8 @@
         "categoryId": 2,
         "difficulty": "easy",
         "indoor": true,
-        "description": "Barn dansar till musik och måste frysa när musiken stoppar."
+        "description": "Barn dansar till musik och måste frysa när musiken stoppar.",
+        "image": "./images/dansstopp.jpg"
     },
     {
         "id" : 3,
@@ -78,7 +79,7 @@
         "difficulty": "easy",
         "indoor": true,
         "description": "Bygg torn med klossar, utmana barnen att göra högst torn utan att det rasar.",
-        "image": "./images/byggornet.png"
+        "image": "./images/byggtornet.png"
     },
     {
         "id" : 9,
@@ -88,7 +89,7 @@
         "difficulty": "medium",
         "indoor": false,
         "description": "Barn letar efter olika växter, insekter och fåglar på promenad.",
-        "image": "./images/natturutforskaren.png"
+        "image": "./images/naturutforskaren.png"
     },
     {
         "id" : 10,
