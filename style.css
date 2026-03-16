@@ -1,1 +1,13 @@
-body {background-color: aqua;}
+body {
+    background-color: aqua;
+}
+
+ul{
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    width: 100vw;
+}

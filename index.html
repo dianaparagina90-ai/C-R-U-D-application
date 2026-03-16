@@ -8,6 +8,64 @@
     <title>CRUD application</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Barnspel</h1>
+        <nav>
+            <ul>
+                <li class="all-games">Alla spel</li>
+                <li id="category">Kategorier</li>
+                <li id="indoor-outdoor">Indoor-outdoor</li>
+                <li id="age">Ålder</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Alla spel</h2>
+        <section class="all-games">
+            <h3>Namn</h3>
+            <img src="" alt="Bild på spelet">
+            <button>Läs mer</button>
+        </section>
+        <section>
+            <h3>Förslag nytt spel</h3>
+            <p>Om du har förslag om andra spel än de uppvissade, lägg in den gärna i nedan förmulär</p>
+            <fieldset>
+                    <label>Titel <input type="text" id="title" placeholder="Spelnamn"></label>
+
+                    <label for="ageGroup">Åldergrupp</label>
+                    <select name="ageGroup" id="ageGroup">
+                        <option value="3-7">3-7 år</option>
+                        <option value="5-8">5-8 år</option>
+                        <option value="6-9">6-9 år</option>
+                        <option value="8-10">8-10 år</option>
+                    </select>
+
+                    <label for="difficulty">Svårighet</label> 
+                    <select id="difficulty"> 
+                        <option value="easy">Lätt</option> 
+                        <option value="medium">Medel</option> 
+                        <option value="hard">Svår</option> 
+                    </select>
+
+                    <label for="indoor">Aktivitet</label> 
+                    <select id="indoor"> 
+                        <option value="true">Inomhus</option> 
+                        <option value="false">Utomhus</option> 
+                    </select>
+
+                    <label for="categories">Kategori</label>
+                    <select id="categories">
+                        <option value="Äventyr">Äventyr</option>
+                        <option value="Musik & rörelse">Musik & rörelse</option>
+                        <option value="Kreativt">Kreativt</option>
+                    </select>
+
+                    <label for="description">Beskrivning</label>
+                    <textarea name="description" id="description" rows="4" placeholder="En kort beskrivning om vad spelet gäller"></textarea>
+                    <button id="submit">Lägg till spel</button>
+            </fieldset>
+            
+        </section>
+    </main>
 </body>
 </html>
