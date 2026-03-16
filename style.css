@@ -1,13 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-ul{
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.all-games {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
-li {
-    list-style-type: none;
+.games {
     display: flex;
-    width: 100vw;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(200, 200, 252);
+    color: rgb(56, 1, 107);
+    font-weight: bold;
 }
