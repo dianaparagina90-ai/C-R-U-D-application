@@ -5,11 +5,18 @@
 }
 
 body {
-    background-color: aqua;
+    background-image: url(./images/background.jpg);
+    min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
+
 
 img {
     width: 200px;
@@ -31,9 +38,10 @@ img {
 }
 
 button {
-    padding: 5px;
-    border-radius: 10px;
-    background-color: rgb(200, 200, 252);
-    color: rgb(56, 1, 107);
-    font-weight: bold;
+  background-color:  rgb(255, 140, 66);;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
 }
