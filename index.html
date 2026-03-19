@@ -10,12 +10,24 @@
 <body>
     <header>
         <h1>Barnspel</h1>
+        <nav>
+            <ul class="navbar">
+                <li id="games">Alla spel</li>
+                <li id="category">Kategori</li>
+            </ul>
+        </nav>
 
     </header>
     <main>
         <h2>Alla spel</h2>
         <section class="all-games">
         </section>
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <span id="close">&times;</span>
+                <div id="modal-body"></div>
+            </div>
+        </div>
         <section>
             <h3>Förslag nytt spel</h3>
             <p>Om du har förslag om andra spel än de uppvissade, lägg in den gärna i nedan förmulär</p>
@@ -45,9 +57,9 @@
 
                     <label for="categories">Kategori</label>
                     <select id="categories">
-                        <option value="Äventyr">Äventyr</option>
-                        <option value="Musik & rörelse">Musik & rörelse</option>
-                        <option value="Kreativt">Kreativt</option>
+                        <option value="1">Äventyr</option>
+                        <option value="2">Musik & rörelse</option>
+                        <option value="3">Kreativt</option>
                     </select>
 
                     <label for="description">Beskrivning</label>

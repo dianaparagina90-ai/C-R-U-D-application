@@ -17,6 +17,36 @@ body {
     
 }
 
+.column-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#games, #category{
+    list-style-type: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem
+}
+
+#games:hover, #category:hover {
+    border: 2px solid salmon;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: salmon;
+}
+
+.games-category {
+    background-color: rgb(252, 83, 64);
+    padding: 10px;
+}
+
 
 img {
     width: 200px;
@@ -44,4 +74,42 @@ button {
   border-radius: 10px;
   border: none;
   font-weight: bold;
+  
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
 }
