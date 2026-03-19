@@ -1,133 +1,118 @@
 {
-    "games": [
-        {
-        "id" : 1,
-        "title" : "Skattjakt",
-        "ageGroup": "6-9",
-        "categoryId": 1,
-        "difficulty": "medium",
-        "indoor": false,
-        "description": "Barn följer ledtrådar för att hitta en gömd skatt.",
-        "image": "./images/skattjakt.jpg"
-    
+  "games": [
+    {
+      "id": "1",
+      "title": "Skattjakt",
+      "ageGroup": "6-9",
+      "categoryId": 1,
+      "difficulty": "medium",
+      "indoor": false,
+      "description": "Barn följer ledtrådar för att hitta en gömd skatt.",
+      "image": "./images/skattjakt.jpg"
     },
     {
-        "id" : 2,
-        "title" : "Dansstopp",
-        "ageGroup": "3-7",
-        "categoryId": 2,
-        "difficulty": "easy",
-        "indoor": true,
-        "description": "Barn dansar till musik och måste frysa när musiken stoppar.",
-        "image": "./images/dansstopp.jpg"
+      "id": "2",
+      "title": "Dansstopp",
+      "ageGroup": "3-7",
+      "categoryId": 2,
+      "difficulty": "easy",
+      "indoor": true,
+      "description": "Barn dansar till musik och måste frysa när musiken stoppar.",
+      "image": "./images/dansstopp.jpg"
     },
     {
-        "id" : 3,
-        "title" : "Färgjakten",
-        "ageGroup": "3-7",
-        "categoryId": 3,
-        "difficulty": "medium",
-        "indoor": false,
-        "description": "Barn letar saker i olika färger i trädgården eller lekplatsen.",
-        "image": "./images/Färgjakten.png"
+      "id": "3",
+      "title": "Färgjakten",
+      "ageGroup": "3-7",
+      "categoryId": 3,
+      "difficulty": "medium",
+      "indoor": false,
+      "description": "Barn letar saker i olika färger i trädgården eller lekplatsen.",
+      "image": "./images/Färgjakten.png"
     },
     {
-        "id" : 4,
-        "title" : "Rymdäventyret",
-        "ageGroup": "8-10",
-        "categoryId": 1,
-        "difficulty": "medium",
-        "indoor": false,
-        "description": "Barn spelar astronauter och utforskar “nya planeter”.",
-        "image": "./images/rymdaventyret.png"
+      "id": "4",
+      "title": "Rymdäventyret",
+      "ageGroup": "8-10",
+      "categoryId": 1,
+      "difficulty": "medium",
+      "indoor": false,
+      "description": "Barn spelar astronauter och utforskar “nya planeter”.",
+      "image": "./images/rymdaventyret.png"
     },
     {
-        "id" : 5,
-        "title" : "Memory Mix",
-        "ageGroup": "5-8",
-        "categoryId": 3,
-        "difficulty": "medium",
-        "indoor": true,
-        "description": "Memoryspel med djur eller färger, tränar minne och koncentration.",
-        "image": "./images/memory.png"
+      "id": "5",
+      "title": "Memory Mix",
+      "ageGroup": "5-8",
+      "categoryId": 3,
+      "difficulty": "medium",
+      "indoor": true,
+      "description": "Memoryspel med djur eller färger, tränar minne och koncentration.",
+      "image": "./images/memory.png"
     },
     {
-        "id" : 6,
-        "title" : "Pusselmästaren",
-        "ageGroup": "6-9",
-        "categoryId": 3,
-        "difficulty": "easy",
-        "indoor": true,
-        "description": "Barn löser pussel med olika svårighetsgrad.",
-        "image": "./images/pusselmästaren.png"
+      "id": "6",
+      "title": "Pusselmästaren",
+      "ageGroup": "6-9",
+      "categoryId": 3,
+      "difficulty": "easy",
+      "indoor": true,
+      "description": "Barn löser pussel med olika svårighetsgrad.",
+      "image": "./images/pusselmästaren.png"
     },
     {
-        "id" : 7,
-        "title" : "Hopa hage",
-        "ageGroup": "3-7",
-        "categoryId": 2,
-        "difficulty": "easy",
-        "indoor": false,
-        "description": "Klassiskt hopphage-spel med poängsystem.",
-        "image": "./images/hoppa-hage.png"
+      "id": "7",
+      "title": "Hopa hage",
+      "ageGroup": "3-7",
+      "categoryId": 2,
+      "difficulty": "easy",
+      "indoor": false,
+      "description": "Klassiskt hopphage-spel med poängsystem.",
+      "image": "./images/hoppa-hage.png"
     },
     {
-        "id" : 8,
-        "title" : "Byggtornet",
-        "ageGroup": "5-8",
-        "categoryId": 3,
-        "difficulty": "easy",
-        "indoor": true,
-        "description": "Bygg torn med klossar, utmana barnen att göra högst torn utan att det rasar.",
-        "image": "./images/byggtornet.png"
+      "id": "8",
+      "title": "Byggtornet",
+      "ageGroup": "5-8",
+      "categoryId": 3,
+      "difficulty": "easy",
+      "indoor": true,
+      "description": "Bygg torn med klossar, utmana barnen att göra högst torn utan att det rasar.",
+      "image": "./images/byggtornet.png"
     },
     {
-        "id" : 9,
-        "title" : "Naturutforskaren",
-        "ageGroup": "6-9",
-        "categoryId": 1,
-        "difficulty": "medium",
-        "indoor": false,
-        "description": "Barn letar efter olika växter, insekter och fåglar på promenad.",
-        "image": "./images/naturutforskaren.png"
+      "id": "9",
+      "title": "Naturutforskaren",
+      "ageGroup": "6-9",
+      "categoryId": 1,
+      "difficulty": "medium",
+      "indoor": false,
+      "description": "Barn letar efter olika växter, insekter och fåglar på promenad.",
+      "image": "./images/naturutforskaren.png"
     },
     {
-        "id" : 10,
-        "title" : "Fantasifort",
-        "ageGroup": "5-8",
-        "categoryId": 3,
-        "difficulty": "easy",
-        "indoor": true,
-        "description": "Barn hittar på korta sagor eller rollspel med figurer.",
-        "image": "./images/fantasifort.png"
+      "id": "10",
+      "title": "Fantasifort",
+      "ageGroup": "5-8",
+      "categoryId": 3,
+      "difficulty": "easy",
+      "indoor": true,
+      "description": "Barn hittar på korta sagor eller rollspel med figurer.",
+      "image": "./images/fantasifort.png"
     }
-],
-
-    "category": [
-        {
-            "id" : 1,
-            "name": "Äventyr"
-        },
-        {
-            "id" : 2,
-            "name": "Musik & rörelse"
-        },
-        {
-            "id" : 3,
-            "name": "Kreativt"
-        }
-    ],
-
-    "indoor-outdoor": [
-        {
-            "id": 1,
-            "indoor": true
-        },
-        {
-            "id": 1,
-            "indoor": false
-        }
-    ]
-
-    
+  ],
+  "category": [
+    {
+      "id": "1",
+      "name": "Äventyr"
+    },
+    {
+      "id": "2",
+      "name": "Musik & rörelse"
+    },
+    {
+      "id": "3",
+      "name": "Kreativt"
+    }
+  ]
 }
